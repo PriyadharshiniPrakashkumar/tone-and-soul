@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TONE & SOUL - Musical Instruments Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <!-- Logo Added -->
+    <img src="images/tone_and_soul_logo.png" alt="TONE & SOUL Logo" class="logo">
+    <h1>TONE & SOUL</h1>
+    <button id="view-cart-btn" onclick="toggleCart()">View Cart (0)</button>
+  </header>
+
+  <!-- Shopping Section (Visible by default) -->
+  <div class="product-container" id="product-container">
+    <!-- Product cards will be generated here by JavaScript -->
+  </div>
+
+  <!-- Cart Section (Initially hidden) -->
+  <div id="cart-container" style="display:none;">
+    <h2>Your Cart</h2>
+    <ul id="cart-list">
+      <!-- Cart items will be displayed here -->
+    </ul>
+    <button id="checkout-btn">Checkout</button>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
